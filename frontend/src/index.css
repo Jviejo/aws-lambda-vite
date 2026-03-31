@@ -2,20 +2,20 @@
 
 /* ─── Variables ─────────────────────────────────────────────── */
 :root {
-  --bg:           #0C0B09;
-  --surface:      #141210;
-  --surface-2:    #1E1B16;
-  --border:       #2A2520;
-  --border-light: #332E27;
-  --gold:         #C9A86C;
-  --gold-bright:  #E4C97E;
-  --gold-glow:    rgba(201, 168, 108, 0.12);
-  --gold-dim:     rgba(201, 168, 108, 0.06);
-  --text:         #EBE5DC;
-  --text-muted:   #7C7166;
-  --text-dim:     #3D3830;
-  --error:        #C05050;
-  --green:        #7CB884;
+  --bg:           #FAFAF8;
+  --surface:      #F4F2EE;
+  --surface-2:    #EDEAE4;
+  --border:       #DDD9D2;
+  --border-light: #E8E4DE;
+  --gold:         #0D0C0A;
+  --gold-bright:  #333128;
+  --gold-glow:    rgba(13, 12, 10, 0.06);
+  --gold-dim:     rgba(13, 12, 10, 0.04);
+  --text:         #0D0C0A;
+  --text-muted:   #8A8680;
+  --text-dim:     #C0BBB4;
+  --error:        #B03030;
+  --green:        #2E7D52;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Lora', Georgia, serif;
@@ -59,7 +59,7 @@ body::before {
   left: -10%;
   width: 60%;
   height: 60%;
-  background: radial-gradient(ellipse at center, rgba(201,168,108,0.06) 0%, transparent 65%);
+  background: radial-gradient(ellipse at center, rgba(13,12,10,0.025) 0%, transparent 65%);
   pointer-events: none;
   z-index: 0;
 }
@@ -86,7 +86,7 @@ body::before {
   flex-direction: column;
   padding: 48px 36px;
   border-right: 1px solid var(--border);
-  background: var(--surface);
+  background: var(--bg);
   overflow: hidden;
 }
 
@@ -97,8 +97,8 @@ body::before {
   right: 0;
   width: 1px;
   height: 100%;
-  background: linear-gradient(to bottom, transparent 0%, var(--gold) 30%, var(--gold) 70%, transparent 100%);
-  opacity: 0.25;
+  background: linear-gradient(to bottom, transparent 0%, var(--text) 30%, var(--text) 70%, transparent 100%);
+  opacity: 0.12;
 }
 
 .sidebar-label {

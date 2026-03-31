@@ -1,0 +1,11 @@
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/lambda.zip
+terraform/.terraform.lock.hcl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
